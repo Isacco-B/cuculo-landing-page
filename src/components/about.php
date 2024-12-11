@@ -1,10 +1,10 @@
 <section class="py-12 p-8 max-w-screen-xl mx-auto">
     <div class="grid items-center gap-8 lg:grid-cols-2">
         <div class="flex flex-col lg:items-start lg:text-left">
-            <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-[#2074a3]">
+            <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-textPrimary">
                 Chi siamo
             </h1>
-            <p class="mb-8 max-w-xl text-[#333333] lg:text-lg font-Poppins">
+            <p class="mb-8 max-w-xl text-textSecondary lg:text-lg font-Poppins">
                 <span class="font-semibold">Volo del Cuculo</span> è una organizzazione di volontariato ONLUS.
                 Fondata ufficialmente nel 2009 già da tempo operava sul territorio nell'ambito
                 della salute mentale collaborando con il Centro Psico Sociale di Trescore Balneario.
@@ -12,7 +12,7 @@
                 promuovendo inclusione e amicizia.
             </p>
         </div>
-        <div class="bg-[#f0fdfd] rounded-xl">
+        <div class="bg-bgSecondary/20 rounded-xl">
             <img
                 src="../src/assets/imgs/volo-del-cuculo-3.jpg"
                 alt="about image"

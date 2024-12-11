@@ -2,7 +2,7 @@
     <div class=" max-w-screen-xl mx-auto">
         <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-[#2074a3] text-center">I nostri volontari</h1>
 
-        <p class="mx-auto mt-10 max-w-xl text-pretty leading-7 font-Poppins text-xl text-[#2074a3] text-center">
+        <p class="max-w-4xl mx-auto mt-4 text-pretty leading-7 text-textPrimary lg:text-lg font-Poppins text-center">
             Basta poco del tuo tempo per darci un grande aiuto.
             Se vuoi fare del volontariato contattaci, con noi troverai
             lo spazio giusto per le tue idee e la tua voglia di fare!

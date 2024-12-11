@@ -1,6 +1,6 @@
-<section class="relative py-12 p-8 sm:py-16 lg:pt-20 bg-[#f0fdfd]">
+<section class="relative py-12 p-8 bg-bgPrimary">
     <div class="relative mx-auto hidden max-w-screen-lg md:block">
-        <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="absolute right-5 top-10 w-32">
+        <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="absolute right-5 top-24 w-32">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
             <g id="SVGRepo_iconCarrier">
@@ -9,14 +9,14 @@
         </svg>
     </div>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl text-center">
-            <img src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="logo" class="w-40 mx-auto">
+        <div class="max-w-4xl mx-auto text-center">
+            <img src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="logo" class="w-64 mx-auto">
             <h1
                 class="mt-5 text-3xl leading-snug sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
                 <span
-                    class="relative inline-flex justify-center font-bold font-Poppins text-[#2074a3]">
+                    class="relative inline-flex justify-center font-bold font-Poppins text-textPrimary">
                     <svg
-                        class="absolute -bottom-8 hidden w-2/3 text-[#05cab6] sm:block"
+                        class="absolute -bottom-8 hidden w-2/3 text-bgSecondary sm:block"
                         viewBox="0 0 490 42"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg">
@@ -30,14 +30,22 @@
 
                     Scoprici e vola con noi</span>
             </h1>
-            <p class="mx-auto mt-10 max-w-xl text-pretty leading-7 font-Poppins text-xl text-[#2074a3]">
+            <p class="max-w-4xl mx-auto my-10 text-pretty leading-7 font-Poppins text-xl text-textPrimary">
                 Promuoviamo il benessere mentale attraverso la solidarietà, l’inclusione e la condivisione. "Volo del Cuculo" è un’associazione di volontariato dedicata al supporto di persone con disagio psichico e alla lotta contro lo stigma.
             </p>
-
-            <!-- <div class="mt-10 inline-flex gap-10">
-                <button class="rounded-xl bg-blue-700 px-10 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Diventa Volontario</button>
-                <button class="rounded-xl bg-blue-700 px-10 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Fai una donazione</button>
-            </div> -->
+            <a
+                href="#"
+                class="inline-flex items-center gap-2 px-4 py-2.5 font-Poppins font-semibold text-lg text-white transition-colors duration-300 bg-bgSecondary rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-bgSecondary/50">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <rect x="3" y="5" width="18" height="14" rx="2" stroke="#ffffff" stroke-width="2" stroke-linecap="round"></rect>
+                    </g>
+                </svg>
+                <span>Contattaci</span>
+            </a>
         </div>
     </div>
 </section>

@@ -55,12 +55,13 @@
     <?php include '../src/components/about.php'; ?>
     <?php include '../src/components/cta.php'; ?>
     <?php include '../src/components/mission.php'; ?>
-    <?php include '../src/components/cta2.php'; ?>
+
     <?php include '../src/components/features.php'; ?>
 
     <?php include '../src/components/teams.php'; ?>
 
     <?php include '../src/components/gallery.php'; ?>
+    <?php include '../src/components/cta2.php'; ?>
     <?php include '../src/components/theFuture.php'; ?>
 
     <?php include '../src/components/footer.php'; ?>
