@@ -1,4 +1,4 @@
-<section class="py-12 p-8 bg-bgPrimary">
+<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
     <div
         class="flex flex-col items-center px-4 mx-auto text-center">
         <h2
@@ -12,7 +12,7 @@
 
         <div class="mt-6">
             <a
-                href="#"
+                href="#contact"
                 class="px-4 py-2.5 font-Poppins font-semibold text-lg text-white transition-colors duration-300 bg-bgSecondary rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-bgSecondary/50">
                 Diventa Volontario
             </a>

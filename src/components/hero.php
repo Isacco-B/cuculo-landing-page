@@ -1,5 +1,5 @@
-<section class="relative py-12 p-8 bg-bgPrimary">
-    <div class="relative mx-auto hidden max-w-screen-lg md:block">
+<section class="relative py-28 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
+    <div class=" relative mx-auto hidden max-w-screen-lg md:block">
         <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="absolute right-5 top-24 w-32">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -8,11 +8,11 @@
             </g>
         </svg>
     </div>
-    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="relative mx-auto max-w-7xl">
         <div class="max-w-4xl mx-auto text-center">
             <img src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="logo" class="w-64 mx-auto">
             <h1
-                class="mt-5 text-3xl leading-snug sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
+                class="mt-5 text-4xl leading-snug sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
                 <span
                     class="relative inline-flex justify-center font-bold font-Poppins text-textPrimary">
                     <svg

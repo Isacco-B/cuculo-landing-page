@@ -1,5 +1,5 @@
 <header
-    class="relative flex flex-col px-4 py-4 text-blue-900 md:flex-row md:items-center md:justify-center">
+    class="flex flex-col px-4 py-4 text-blue-900 md:flex-row md:items-center md:justify-center fixed top-0 left-0 z-10 bg-white w-full">
     <input type="checkbox" class="peer hidden" id="navbar-open" />
     <label
         class="absolute top-5 right-7 cursor-pointer md:hidden"

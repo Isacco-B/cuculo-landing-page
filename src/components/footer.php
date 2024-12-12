@@ -1,69 +1,58 @@
-<footer class="text-gray-600 body-font">
-    <div
-        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a
-            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <span class="ml-3 text-xl">Volo del cuculo</span>
-        </a>
-        <p
-            class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2024 Volo del cuculo
-        </p>
-        <span
-            class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-gray-500">
-                <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <path
-                        d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                </svg>
+<footer>
+    <div class="max-w-screen-xl mx-auto py-12 px-6 font-Poppins">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <h1 class="text-xl font-semibold tracking-tight text-textSecondary md:mx-3 xl:text-2xl">Sostienici, anche una piccola offerta è un grande aiuto.</h1>
+            <a href="#" class="w-full text-center md:w-auto px-4 py-2 font-semibold text-lg text-white transition-colors duration-300 bg-bgSecondary rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-bgSecondary/50">
+                <span>Dona</span>
             </a>
-            <a class="ml-3 text-gray-500">
-                <svg
-                    fill="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <path
-                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                </svg>
+        </div>
+
+        <hr class="my-6 border-gray-200 md:my-10">
+
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div>
+                <p class="font-semibold text-textSecondary">Quick Link</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-textSecondary">Industries</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail & E-Commerce</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-textSecondary">Services</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Translation</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-semibold text-textSecondary">Contact Us</p>
+
+                <div class="flex flex-col items-start mt-5 space-y-2">
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">+880 768 473 4978</a>
+                    <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">info@merakiui.com</a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-6 border-gray-200 md:my-10">
+
+        <div class="flex flex-col items-center justify-between sm:flex-row">
+            <a href="#" class="inline-flex items-center gap-2">
+                <img class="w-12 h-12" src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="">
+                <span class="text-xl font-semibold tracking-tight text-textSecondary">Volo del Cuculo</span>
             </a>
-            <a class="ml-3 text-gray-500">
-                <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                    <path
-                        d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                </svg>
-            </a>
-            <a class="ml-3 text-gray-500">
-                <svg
-                    fill="currentColor"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="0"
-                    class="w-5 h-5"
-                    viewBox="0 0 24 24">
-                    <path
-                        stroke="none"
-                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                </svg>
-            </a>
-        </span>
+
+            <p class="mt-4 text-sm text-textSecondary">© Copyright 2024. All Rights Reserved.</p>
+        </div>
     </div>
 </footer>
