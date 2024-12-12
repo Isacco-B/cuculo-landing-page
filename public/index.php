@@ -47,11 +47,11 @@
         href="../src/assets/imgs/favicon.png"
         type="image/x-icon" />
     <title>Volo del Cuculo - Associazione di volontariato Telgate</title>
-    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body class="scroll-smooth">
 
+    <?php include '../src/components/donationCard.php'; ?>
     <?php include '../src/components/header.php'; ?>
     <?php include '../src/components/hero.php'; ?>
 
@@ -213,6 +213,27 @@
         input.setSelectionRange(0, 99999);
 
         navigator.clipboard.writeText(input.value)
+    });
+</script>
+<script>
+    const openButtons = document.querySelectorAll('.open-donate');
+    const closeButton = document.getElementById('close-donate');
+    const donateCard = document.getElementById('donate-card');
+
+    openButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            donateCard.classList.remove('hidden');
+            donateCard.classList.remove('opacity-0');
+            donateCard.classList.add('opacity-100', 'scale-100');
+        });
+    });
+
+    closeButton.addEventListener('click', () => {
+        donateCard.classList.add('opacity-0');
+        donateCard.classList.remove('opacity-100', 'scale-100');
+        setTimeout(() => {
+            donateCard.classList.add('hidden');
+        }, 300);
     });
 </script>
 

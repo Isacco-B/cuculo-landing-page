@@ -1,4 +1,4 @@
-<section class="my-24 p-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300">
+<section class="my-24 p-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300" id="mission">
     <div class="grid items-center gap-8 lg:grid-cols-2 lg:gap-16">
         <div class="bg-bgSecondary/20 rounded-xl">
             <img

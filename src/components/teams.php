@@ -1,4 +1,4 @@
-<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
+<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="teams">
     <div class=" max-w-screen-xl mx-auto">
         <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-textPrimary text-center">Il nostro team</h1>
 

@@ -1,4 +1,4 @@
-<section class="relative py-28 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
+<section class="relative py-28 p-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="hero">
     <div class=" relative mx-auto hidden max-w-screen-lg md:block">
         <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="absolute right-5 top-24 w-32">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
