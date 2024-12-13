@@ -1,4 +1,5 @@
-<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
+<section class="py-12 px-6 md:py-24 md:px-8 bg-bgPrimary lazy-section opacity-0 duration-300 relative">
+    <img src="../src/assets/imgs/undraw_a_whole_year.svg" alt="" class="absolute bottom-0 left-40 w-64 hidden lg:block">
     <div
         class="flex flex-col items-center px-4 mx-auto text-center">
         <h2

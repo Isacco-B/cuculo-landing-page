@@ -6,38 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
         name="description"
-        content="Scopri i nostri festival e mercatini itineranti a Bergamo. Eventi unici che celebrano creatività, sostenibilità e empowerment femminile. Partecipa e sostieni l'artigianato locale!" />
-    <meta
-        name="keywords"
-        content="Festival mercatini Bergamo, mercatini artigianali Bergamo, eventi Bergamo, festival itineranti, sostenibilità, artigianato, empowerment femminile, Bergamo mercatini creativi, mercato artigianato locale" />
+        content="Promuoviamo il benessere mentale attraverso la solidarietà, l’inclusione e la condivisione. Volo del Cuculo è un’associazione di volontariato dedicata al supporto di persone con disagio psichico e alla lotta contro lo stigma." />
+    <meta name="keywords" content="salute mentale, benessere psicologico, associazione di volontariato, volontariato per la salute mentale, lotta contro lo stigma, inclusione sociale, supporto psicologico, disagio psichico, solidarietà sociale, associazione no-profit, volontariato Telgate, supporto comunitario, Volo del Cuculo, aiuto psicologico volontariato, benessere mentale inclusivo" />
+    <meta name="author" content="Associazione Volo del Cuculo" />
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
     <meta
         property="og:title"
-        content="Flea Market - Festival e Mercatini Itineranti a Bergamo" />
+        content="Volo del Cuculo - Associazione di volontariato per la salute mentale" />
     <meta
         property="og:description"
-        content="Vivi un'esperienza unica ai nostri festival e mercatini itineranti a Bergamo. Scopri prodotti artigianali, workshop e attività culturali." />
-    <meta property="og:url" content="https://fleamarketyo.it/" />
+        content="Promuoviamo il benessere mentale attraverso la solidarietà, l’inclusione e la condivisione. Volo del Cuculo è un’associazione di volontariato dedicata al supporto di persone con disagio psichico e alla lotta contro lo stigma." />
+    <meta property="og:url" content="https://volodelcuculo.it/" />
     <meta
         property="og:site_name"
-        content="Flea Market - Festival e Mercatini Itineranti a Bergamo" />
+        content="Volo del Cuculo - Associazione di volontariato per la salute mentale" />
     <meta
         property="article:modified_time"
         content="2024-08-24T15:40:33+00:00" />
     <meta
         property="og:image"
-        content="https://i.postimg.cc/VL8zWZ7r/Flea-Market-Logo.jpg" />
+        content="https://i.postimg.cc/HWRzQSyM/volo-del-cuculo-logo.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
         name="twitter:title"
-        content="Festival e Mercatini Itineranti a Bergamo: Creatività e Sostenibilità" />
+        content="Volo del Cuculo - Associazione di volontariato per la salute mentale" />
     <meta
         name="twitter:description"
-        content="Scopri i nostri festival e mercatini itineranti a Bergamo. Eventi che uniscono creatività, sostenibilità e valorizzazione dell'artigianato locale." />
+        content="Promuoviamo il benessere mentale attraverso la solidarietà, l’inclusione e la condivisione. Volo del Cuculo è un’associazione di volontariato dedicata al supporto di persone con disagio psichico e alla lotta contro lo stigma." />
     <meta name="twitter:label1" content="Tempo di lettura stimato" />
     <meta name="twitter:data1" content="10 minuti" />
-    <link rel="canonical" href="https://fleamarketyo.it/" />
+    <link rel="canonical" href="https://volodelcuculo.it/" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
         rel="shortcut icon"
         href="../src/assets/imgs/favicon.png"
         type="image/x-icon" />
-    <title>Volo del Cuculo - Associazione di volontariato Telgate</title>
+    <title>Salute Mentale e Volontariato - Volo del Cuculo Telgate</title>
 </head>
 
 <body class="scroll-smooth">
@@ -81,7 +81,7 @@
         lazySections.forEach((section, index) => {
             setTimeout(() => {
                 section.classList.add('opacity-100');
-            }, index * 300);
+            }, index * 100);
         });
     });
 </script>

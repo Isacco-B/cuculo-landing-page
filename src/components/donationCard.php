@@ -1,6 +1,6 @@
-<div id="donate-card" class="fixed inset-0 z-50 bg-black bg-opacity-50 hidden transition-opacity duration-300">
+<div id="donate-card" class="fixed inset-0 z-50 bg-black bg-opacity-50 hidden transition-opacity duration-300 overflow-scroll">
     <div class="flex items-center justify-center">
-        <div class="relative bg-white inline-block p-4 overflow-hidden text-left align-middle transition-transform transform scale-95 shadow-xl sm:max-w-lg rounded-xl sm:my-8 sm:w-full sm:p-6">
+        <div class="relative bg-white inline-block p-4 text-left align-middle transition-transform transform scale-95 shadow-xl sm:max-w-lg rounded-xl sm:my-8 sm:w-full sm:p-6">
             <div class="flex items-center justify-center mx-auto bg-bgSecondary rounded-xl">
                 <img class="rounded-lg w-64" src="../src/assets/imgs/thank-you-illustration.png" alt="" />
             </div>

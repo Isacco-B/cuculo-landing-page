@@ -1,12 +1,12 @@
-<section class="mb-24 p-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300" id="features">
+<section class="py-12 px-6 md:pt-24 md:px-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300" id="features">
     <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-textPrimary text-center">Le nostre attività</h1>
 
-    <p class="max-w-4xl mx-auto mt-10 text-pretty leading-7 font-Poppins text-xl text-textSecondary text-center">
+    <p class="max-w-4xl mx-auto mt-10 text-pretty leading-7 font-Poppins lg:text-lg text-textSecondary text-center">
         Cerchiamo di creare degli spazi positivi sia con svariate attività che facciamo in gruppo
         che anche con l'accompagnamento dei nostri utenti nelle proposte che offrono i nostri territori.
     </p>
     <h2 class="font-medium font-Poppins tracking-widest text-textSecondary mb-4 text-sm text-center mt-10">Attività del nostro gruppo</h2>
-    <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
+    <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2 text-sm lg:text-base">
         <div class="p-2 sm:w-1/2 w-full">
             <div class="bg-bgPrimary rounded-xl flex p-4 h-full items-center">
                 <svg fill="none" stroke="#05cab6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
@@ -55,7 +55,7 @@
     </div>
 
     <h2 class="font-medium font-Poppins tracking-widest text-textSecondary mb-4 text-sm text-center mt-10">Attività nel territorio</h2>
-    <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
+    <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2 text-sm lg:text-base">
         <div class="p-2 sm:w-1/2 w-full">
             <div class="bg-bgPrimary rounded-xl flex p-4 h-full items-center">
                 <svg fill="none" stroke="#05cab6" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">

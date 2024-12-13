@@ -1,8 +1,8 @@
 <header
-    class="flex flex-col gap-12 px-4 py-4 min-h-16 text-textPrimary font-Poppins md:flex-row md:items-center md:justify-center fixed top-0 left-0 z-10 md:bg-white w-full md:border-b">
+    class="min-h-16 p-4 text-textPrimary font-Poppins fixed top-0 left-0 z-10 w-full">
     <input type="checkbox" class="peer hidden" id="navbar-open" />
     <label
-        class="absolute top-5 right-7 cursor-pointer md:hidden"
+        class="absolute top-5 right-7 cursor-pointer lg:hidden bg-white rounded-xl p-2 shadow"
         for="navbar-open">
         <span class="sr-only">Toggle Navigation</span>
         <svg
@@ -20,7 +20,7 @@
     </label>
     <nav
         aria-label="Header Navigation"
-        class="peer-checked:mt-8 peer-checked:max-h-56 peer-checked:p-4 peer-checked:shadow flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:max-h-full md:flex-row md:mx-24 bg-white rounded-xl">
+        class="peer-checked:mt-14 peer-checked:max-h-72 peer-checked:p-4 shadow gap-4 px-24 flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all lg:min-h-16 lg:flex-row bg-white rounded-xl">
         <a href="#hero" class="inline-flex items-center gap-2">
             <span class="text-3xl font-bold">Volo del Cuculo</span>
             <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="w-8">
@@ -32,7 +32,7 @@
             </svg>
         </a>
         <ul
-            class="flex flex-col items-center md:flex-row md:items-center md:mx-auto md:space-x-8">
+            class="flex flex-col items-center gap-2 md:flex-row md:items-center md:mx-auto md:space-x-8">
             <li class="hover:font-semibold"><a href="#about">Chi siamo</a></li>
             <li class="hover:font-semibold"><a href="#mission">Obiettivi</a></li>
             <li class="hover:font-semibold"><a href="#features">Attività</a></li>

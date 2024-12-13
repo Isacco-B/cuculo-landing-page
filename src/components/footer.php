@@ -1,6 +1,6 @@
 <footer>
-    <div class="max-w-screen-xl mx-auto py-12 px-6 font-Poppins">
-        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <div class="pt-12 px-6 md:px-0 font-Poppins">
+        <div class="max-w-screen-xl mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             <div>
                 <p class="font-semibold text-textSecondary">Naviga</p>
 
@@ -38,16 +38,16 @@
                 </div>
             </div>
         </div>
+        <div class="bg-bgPrimary p-4">
+            <div class="max-w-screen-xl mx-auto flex flex-col items-center justify-between sm:flex-row">
+                <a href="#" class="inline-flex items-center gap-2">
+                    <img class="w-12 h-12" src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="">
+                    <span class="text-xl font-semibold tracking-tight text-textSecondary">Volo del Cuculo</span>
+                </a>
 
-        <hr class="my-6 border-gray-200 md:my-10">
-
-        <div class="flex flex-col items-center justify-between sm:flex-row">
-            <a href="#" class="inline-flex items-center gap-2">
-                <img class="w-12 h-12" src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="">
-                <span class="text-xl font-semibold tracking-tight text-textSecondary">Volo del Cuculo</span>
-            </a>
-
-            <p class="mt-4 text-sm text-textSecondary">© Copyright 2024. All Rights Reserved.</p>
+                <p class="mt-4 text-sm text-textSecondary">© Copyright 2024. All Rights Reserved.</p>
+            </div>
         </div>
+
     </div>
 </footer>

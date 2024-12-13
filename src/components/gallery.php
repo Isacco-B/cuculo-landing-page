@@ -1,9 +1,9 @@
-<section class="my-24 p-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300">
+<section class="py-12 px-6 md:py-24 md:px-8 max-w-screen-xl mx-auto lazy-section opacity-0 duration-300">
     <div class="">
         <div class="mb-8 md:mb-14 md:items-end lg:mb-16 text-center">
             <div>
                 <h2 class="mb-3 text-3xl lg:text-4xl font-bold font-Poppins text-[#2074a3] md:mb-4 lg:mb-6">Dai un'occhiata</h2>
-                <p class="max-w-4xl mx-auto text-pretty leading-7 font-Poppins text-xl text-textSecondary">
+                <p class="max-w-4xl mx-auto text-pretty leading-7 font-Poppins lg:text-lg text-textSecondary">
                     Attraverso le immagini del nostro viaggio, potrai vedere momenti di condivisione, attività di gruppo e piccoli frammenti della nostra quotidianità.
                     Esplora la nostra galleria e lasciati ispirare dalla bellezza della solidarietà.
                 </p>

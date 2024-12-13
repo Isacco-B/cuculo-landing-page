@@ -1,4 +1,4 @@
-<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="contact">
+<section class="py-12 px-6 md:py-24 md:px-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="contact">
     <div class="max-w-screen-xl mx-auto flex flex-col">
         <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -73,7 +73,7 @@
 
             <div class="mt-8 lg:w-1/2 lg:mx-6">
                 <div
-                    class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                    class="w-full px-4 md:px-8 py-10 mx-auto overflow-hidden bg-white shadow rounded-xl dark:bg-gray-900 lg:max-w-xl">
                     <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">
                         Richiesta informazioni
                     </h1>
@@ -110,6 +110,21 @@
                                 class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring"
                                 placeholder="Messaggio"></textarea>
                         </div>
+
+                        <div class="mt-6">
+                            <label class="inline-flex items-center">
+                                <input
+                                    type="checkbox"
+                                    id="privacyPolicy"
+                                    name="privacyPolicy"
+                                    required
+                                    class="w-4 h-4 text-blue-400 border-gray-300 rounded focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none" />
+                                <span class="ml-2 text-sm text-textSecondary">
+                                    Acconsento al trattamento dei miei dati e dichiaro di aver preso visione della <a href="#" class="text-blue-500 underline hover:text-blue-600">Privacy Policy</a>*
+                                </span>
+                            </label>
+                        </div>
+
                         <div id="responseMessage" class="mt-6 p-2 hidden rounded-lg font-Poppins text-textPrimary lg:text-lg"></div>
                         <button
                             id="submitButton"
@@ -118,6 +133,7 @@
                             Invia
                         </button>
                     </form>
+
                 </div>
             </div>
         </div>

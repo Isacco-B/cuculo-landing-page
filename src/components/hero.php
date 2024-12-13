@@ -1,4 +1,4 @@
-<section class="relative py-28 p-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="hero">
+<section class="relative py-12 p-6 md:pb-28 md:pt-36 md:p-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="hero">
     <div class=" relative mx-auto hidden max-w-screen-lg md:block">
         <svg fill="#05cab6" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 379.777 379.777" xml:space="preserve" stroke="#05cab6" class="absolute right-5 top-24 w-32">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -10,9 +10,9 @@
     </div>
     <div class="relative mx-auto max-w-7xl">
         <div class="max-w-4xl mx-auto text-center">
-            <img src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="logo" class="w-64 mx-auto">
+            <img src="../src/assets/imgs/volo-del-cuculo-logo.png" alt="logo" class="w-48 md:w-64 mx-auto">
             <h1
-                class="mt-5 text-4xl leading-snug sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
+                class="mt-2 md:mt-5 text-4xl leading-snug sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
                 <span
                     class="relative inline-flex justify-center font-bold font-Poppins text-textPrimary">
                     <svg
@@ -30,11 +30,11 @@
 
                     Scoprici e vola con noi</span>
             </h1>
-            <p class="max-w-4xl mx-auto my-10 text-pretty leading-7 font-Poppins text-xl text-textPrimary">
+            <p class="max-w-4xl mx-auto my-6 md:my-10 text-pretty leading-7 font-Poppins text-xl text-textPrimary">
                 Promuoviamo il benessere mentale attraverso la solidarietà, l’inclusione e la condivisione. "Volo del Cuculo" è un’associazione di volontariato dedicata al supporto di persone con disagio psichico e alla lotta contro lo stigma.
             </p>
             <a
-                href="#"
+                href="#contact"
                 class="inline-flex items-center gap-2 px-4 py-2.5 font-Poppins font-semibold text-lg text-white transition-colors duration-300 bg-bgSecondary rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-bgSecondary/50">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
