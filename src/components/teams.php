@@ -1,4 +1,4 @@
-<section class="py-24 p-8 bg-bgPrimary lazy-section opacity-0 duration-300">
+<section class="py-12 px-6 md:py-24 md:px-8 bg-bgPrimary lazy-section opacity-0 duration-300" id="teams">
     <div class=" max-w-screen-xl mx-auto">
         <h1 class="my-6 text-3xl lg:text-4xl font-bold font-Poppins text-textPrimary text-center">Il nostro team</h1>
 
@@ -8,7 +8,7 @@
             Per qualsiasi domanda o per unirti al nostro team, non esitare a contattarci!
         </p>
 
-        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4 p-4">
             <div class="flex flex-col items-center p-4 bg-white rounded-xl text-textSecondary font-Poppins">
                 <h1 class="mt-4 text-2xl font-semibold capitalize">marta</h1>
                 <p class="mt-2 capitalize">vice presidente</p>
