@@ -33,11 +33,11 @@
         </a>
         <ul
             class="flex flex-col items-center gap-2 md:flex-row md:items-center md:mx-auto md:space-x-8">
-            <li class="hover:font-semibold"><a href="#about">Chi siamo</a></li>
-            <li class="hover:font-semibold"><a href="#mission">Obiettivi</a></li>
-            <li class="hover:font-semibold"><a href="#features">Attività</a></li>
-            <li class="hover:font-semibold"><a href="#teams">Team</a></li>
-            <li class="hover:font-semibold"><a href="#contact">Contatti</a></li>
+            <li class="font-semibold transition hover:text-textPrimary/60"><a href="#about">Chi siamo</a></li>
+            <li class="font-semibold transition hover:text-textPrimary/60"><a href="#mission">Obiettivi</a></li>
+            <li class="font-semibold transition hover:text-textPrimary/60"><a href="#features">Attività</a></li>
+            <li class="font-semibold transition hover:text-textPrimary/60"><a href="#teams">Team</a></li>
+            <li class="font-semibold transition hover:text-textPrimary/60"><a href="#contact">Contatti</a></li>
         </ul>
         <button
             class="rounded-full border-2 border-bgSecondary px-6 py-1 text-bgSecondary transition-colors hover:bg-bgSecondary hover:text-white open-donate">
