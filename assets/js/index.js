@@ -148,19 +148,32 @@ document.getElementById("copy-button").addEventListener("click", () => {
 const openButtons = document.querySelectorAll(".open-donate");
 const closeButton = document.getElementById("close-donate");
 const donateCard = document.getElementById("donate-card");
+const donateModalInner = document.getElementById("donate-modal-inner");
 
-openButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    donateCard.classList.remove("hidden");
-    donateCard.classList.remove("opacity-0");
-    donateCard.classList.add("opacity-100", "scale-100");
-  });
-});
+function openDonate() {
+  donateCard.classList.remove("hidden");
+  donateCard.classList.remove("opacity-0");
+  donateCard.classList.add("opacity-100", "scale-100");
+  document.body.classList.add("overflow-hidden");
+}
 
-closeButton.addEventListener("click", () => {
+function closeDonate() {
   donateCard.classList.add("opacity-0");
   donateCard.classList.remove("opacity-100", "scale-100");
   setTimeout(() => {
     donateCard.classList.add("hidden");
+    document.body.classList.remove("overflow-hidden");
   }, 300);
+}
+
+openButtons.forEach((button) => {
+  button.addEventListener("click", openDonate);
+});
+
+closeButton.addEventListener("click", closeDonate);
+
+donateCard.addEventListener("click", (e) => {
+  if (!donateModalInner.contains(e.target)) {
+    closeDonate();
+  }
 });

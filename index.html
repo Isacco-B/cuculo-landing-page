@@ -51,9 +51,9 @@
 
 <body class="scroll-smooth">
 
-    <div id="donate-card" class="fixed inset-0 z-50 bg-black bg-opacity-50 hidden transition-opacity duration-300 overflow-scroll">
-        <div class="flex items-center justify-center">
-            <div class="relative bg-white inline-block p-4 text-left align-middle transition-transform transform scale-95 shadow-xl sm:max-w-lg rounded-xl sm:my-8 sm:w-full sm:p-6">
+    <div id="donate-card" class="fixed inset-0 z-50 bg-black bg-opacity-50 hidden transition-opacity duration-300 overflow-y-auto">
+        <div class="flex min-h-full w-full items-center justify-center p-4">
+            <div id="donate-modal-inner" class="relative bg-white inline-block p-4 text-left align-middle transition-transform transform scale-95 shadow-xl sm:max-w-lg rounded-xl sm:my-8 sm:w-full sm:p-6 max-h-[40px] bg-red overflow-y-auto">
                 <div class="flex items-center justify-center mx-auto bg-bgSecondary rounded-xl">
                     <img class="rounded-lg w-64" src="./assets/imgs/thank-you-illustration.png" alt="" />
                 </div>
@@ -159,7 +159,7 @@
                                     </defs>
                                 </g>
                             </svg>
-                            <p><span class="font-semibold">IBAN: </span>IT51R0858653820000000422794</p>
+                            <p><span class="font-semibold">IBAN: </span>IT48A0851453820000000222794</p>
                         </div>
                         <div class="inline-flex items-center justify-center gap-2">
                             <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#000000" width="24" height="24">
@@ -219,7 +219,7 @@
                                 type="text"
                                 id="iban-input"
                                 name="iban"
-                                value="IT51R0858653820000000422794"
+                                value="IT48A0851453820000000222794"
                                 class="flex-1 block h-10 px-4 text-sm text-textSecondary bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 focus:outline-none focus:ring" />
                             <button
                                 id="copy-button"
@@ -255,7 +255,7 @@
                                     <path d="M47.84,7.44A2.11,2.11,0,0,0,46,6.1L2,6H2A2,2,0,0,0,.15,7.22,2,2,0,0,0,.59,9.38L17.88,26.27a9.23,9.23,0,0,0,12.56-.07L47.4,9.59A2,2,0,0,0,47.84,7.44Z" fill="#6ac1e7"></path>
                                 </g>
                             </svg>
-                            <p><span class="font-semibold">Email: </span>info@volodelcuculo.it</p>
+                            <p><span class="font-semibold">Email: </span>volodelcuculo@legalmail.it</p>
                         </div>
                         <div class="inline-flex items-center justify-center gap-2">
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6">
@@ -271,7 +271,7 @@
                 </div>
                 <div class="mt-2 sm:flex sm:items-center sm:justify-between sm:mt-6 sm:-mx-2">
                     <button class="px-4 py-2.5 w-full font-semibold text-sm text-white transition-colors duration-300 bg-bgSecondary rounded-lg shadow sm:mx-2 hover:bg-bgSecondary/50" id="close-donate">
-                        Torna alla home
+                        Chiudi
                     </button>
                 </div>
             </div>
@@ -809,7 +809,7 @@
                                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
 
-                            <span class="mx-2 text-textPrimary truncate w-72">info@volodelcuculo.it</span>
+                            <span class="mx-2 text-textPrimary truncate w-72">volodelcuculo@legalmail.it</span>
                         </p>
                     </div>
                 </div>
@@ -888,7 +888,7 @@
             <img src="./assets/imgs/volo-del-cuculo-logo.png" alt="volo del cuculo logo" class="mx-auto h-12 w-auto">
             <div class="mt-8 text-center">
                 <p class="text-sm text-textSecondary">
-                    <span class="font-semibold">Email:</span> <a href="mailto:info@volodelcuculo.it">info@volodelcuculo.it</a>
+                    <span class="font-semibold">Email:</span> <a href="mailto:volodelcuculo@legalmail.it">volodelcuculo@legalmail.it</a>
                 </p>
                 <p class="text-sm text-textSecondary mt-2">
                     <span class="font-semibold">Telefono:</span> (+39) 3406814016
@@ -897,11 +897,16 @@
                     <span class="font-semibold">Indirizzo:</span> Via Arici, 15, 24060 Telgate (BG)
                 </p>
                 <p class="text-sm text-textSecondary mt-2">
-                    <span class="font-semibold">C.F.:</span> 95180440166
+                    <span class="font-semibold">C.F.</span> 95180440166
                 </p>
+                <div class="text-sm text-textSecondary mt-2">
+                    <p class="font-semibold">Qualifica RUNTS per E.T.S:</p>
+                    <p class="font-semibold">Numero Registrazione: NUM. PROVV. 1099</p>
+                    <p class="font-semibold">DEL 22/04/2010, NUM. ISCR. 231</p>
+                </div>
                 <a href="https://www.termsfeed.com/live/d11b3dd0-3ac7-4f51-84e9-7706181ddd53" target="_blank" class="text-sm text-[#2074a3] mt-2">Privacy Policy</a></a>
             </div>
-            <p class="mt-8 text-xs text-textSecondary text-center">&copy; 2024. Volo del Cuculo. All rights reserved.</p>
+            <p class="mt-8 text-xs text-textSecondary text-center">&copy; 2026. Volo del Cuculo. All rights reserved.</p>
         </div>
     </footer>
     <script src="./assets/js/index.js"></script>
